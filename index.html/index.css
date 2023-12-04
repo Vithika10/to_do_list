@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+/* Style the container */
+.container-fluid {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#userinput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the buttons */
+.btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+    color: #fff;
+}
+
+/* Style the to-do list items */
+.todo-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the icon in to-do items */
+.todo-item i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #d9534f;
+}
